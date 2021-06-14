@@ -90,17 +90,17 @@ class _HomePageState extends State<HomePage> {
                   onPressed: add,
                   child: Text('+'),
                 ),
-                SizedBox(width: 20),
+                SizedBox(width: 10),
                 ElevatedButton(
                   onPressed: sub,
                   child: Text('-'),
                 ),
-                SizedBox(width: 20),
+                SizedBox(width: 10),
                 ElevatedButton(
                   onPressed: mul,
                   child: Text('*'),
                 ),
-                SizedBox(width: 20),
+                SizedBox(width: 10),
                 ElevatedButton(
                   onPressed: div,
                   child: Text('/'),
